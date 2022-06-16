@@ -1,0 +1,15 @@
+1. Merge Sort
+
+2. Decode 3[abc2[aa]] -> abcaaaaabcaaaaabcaaaa
+
+3. min length substring input -> 'Adobebca', 'abc' ; output -> 'bca'
+
+4. min frog jump [2,3,0,1,4] -> dp problem
+
+5. two sum, three sum pair 
+
+6. find the min sort required for an arrya to be sorted
+
+7. min value in each level of the binary three
+
+8. sub tree count with equal number of zeros and one
