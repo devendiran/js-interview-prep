@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.breeds {
+  list-style: none;
+}
+
+.header div{
+    display: inline-block;
+    padding-right: 10px;
+}
