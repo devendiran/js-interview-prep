@@ -1,0 +1,45 @@
+
+Given this HTML and the default browser font size of 16px:
+
+```html
+<div class="content">
+  <div class="container">
+    <div class="upper">
+      Hello
+    </div>
+    <div class="lower">
+      How are you today?
+    </div>
+  </div>
+</div>
+```
+
+and this CSS:
+
+```css
+html {
+  font-size: 62.5%; /* results in a root font-size of 10px */
+}
+
+.content {
+  font-size: 2rem;
+}
+
+.container {  
+  font-size: inherit;
+}
+
+.container .upper {
+  font-size: 2em;//40p
+  padding: 1em 1.5em;//30px
+}
+
+.container .lower {
+  font-size: 1.1em;//22px
+  padding: 1em 1.5em;//30px
+}
+```
+
+> What is the final font size (in pixels) of each of the texts, "Hello" and "How are you today?"
+
+> and what is the left padding (in pixels) of the <div> with class "upper", and the left padding for "lower"?
